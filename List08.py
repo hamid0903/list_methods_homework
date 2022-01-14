@@ -6,4 +6,14 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    
+    i=fruits.index('apple')
+    print(i)
+    fruits.pop(i)
+    i=fruits.index('apple')
+    print(i)
+    fruits.pop(i)
+    i=fruits.index('apple')
+    print(i)
+    return fruits
+print(main(['apple', 'apple', 'apple', 'peach', 'apple']))
